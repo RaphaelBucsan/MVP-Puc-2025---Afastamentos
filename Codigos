@@ -1,0 +1,260 @@
+1) Criação do Volume: 
+
+CREATE VOLUME IF NOT EXISTS mvp.default.raw
+COMMENT 'Volume para dados brutos (raw)';
+
+2) Check da Criação do Volume: 
+SHOW VOLUMES IN mvp.default;
+
+3) Check do Arquivo Inputado: 
+path_raw = "/Volumes/mvp/default/raw/afastamentos_inss.csv"
+
+df_raw = (
+    spark.read
+        .option("header", True)
+        .option("inferSchema", True)
+        .csv(path_raw)
+)
+
+
+display(df_raw)
+
+
+4) Imports do Python: 
+from pyspark.sql.functions import (
+    col,
+    to_date,
+    year,
+    month,
+    dayofmonth
+)
+
+5) Leitura do Arquivo Importado: 
+path_raw = "/Volumes/mvp/default/raw/afastamentos_inss.csv"
+
+df_raw = (
+    spark.read
+        .option("header", True)
+        .option("inferSchema", True)
+        .csv(path_raw)
+)
+
+display(df_raw)
+
+6) Criação da Extração Bronze da Dimensão de Tempo 
+df_dim_tempo = (
+    df_raw
+        .select(col("data_inicio_afastamento").alias("data"))
+        .dropDuplicates()
+        .withColumn("data", to_date("data"))
+        .withColumn("ano", year("data"))
+        .withColumn("mes", month("data"))
+        .withColumn("dia", dayofmonth("data"))
+)
+
+df_dim_tempo.write \
+    .format("delta") \
+    .mode("append") \
+    .saveAsTable("mvp.bronze.dim_tempo")
+
+7) Criação da Extração Bronze da Dimensão de Localidade: 
+
+df_dim_localidade = (
+    df_raw
+        .select(col("lotacao").alias("localidade"))
+        .dropDuplicates()
+)
+(
+    df_dim_localidade.write
+        .format("delta")
+        .mode("overwrite")  # bronze geralmente overwrite
+        .option("mergeSchema", "true")
+        .saveAsTable("mvp.bronze.dim_localidade")
+
+8) Criação da Extração Bronze da Dimensão de Afastamentos: 
+df_dim_motivo_afastamento = (
+    df_raw
+        .select(col("cid").alias("codigo_cid"))
+        .dropDuplicates()
+)
+
+(
+    df_dim_motivo_afastamento.write
+        .format("delta")
+        .mode("overwrite")  # Bronze = recriável
+        .option("mergeSchema", "true")
+        .saveAsTable("mvp.bronze.dim_motivo_afastamento")
+
+9) Criação da Extração Bronze da Fato de Afastamentos:
+df_fato_afastamentos = (
+    df_raw
+        .select(
+            col("matricula"),
+            col("lotacao").alias("localidade"),
+            col("cid").alias("codigo_cid"),
+            to_date(col("data_inicio_afastamento")).alias("data_inicio_afastamento"),
+            to_date(col("data_fim_afastamento")).alias("data_fim_afastamento"),
+            col("dias_afastados").cast("int")
+        )
+)
+
+(
+    df_fato_afastamentos.write
+        .format("delta")
+        .mode("overwrite")  # Bronze
+        .option("mergeSchema", "true")
+        .saveAsTable("mvp.bronze.fato_afastamentos")
+
+10) Validação das Extrações: 
+SELECT COUNT(*) FROM mvp.bronze.dim_tempo;
+SELECT COUNT(*) FROM mvp.bronze.dim_localidade;
+SELECT COUNT(*) FROM mvp.bronze.dim_motivo_afastamento;
+SELECT COUNT(*) FROM mvp.bronze.fato_afastamentos;
+
+11) Amostras das Extrações: 
+SELECT * FROM mvp.bronze.dim_tempo LIMIT 10;
+SELECT * FROM mvp.bronze.dim_localidade LIMIT 10;
+SELECT * FROM mvp.bronze.dim_motivo_afastamento LIMIT 10;
+SELECT * FROM mvp.bronze.fato_afastamentos LIMIT 10;
+
+12) Criação das Camadas Silver: 
+-> Localidade: 
+CREATE OR REPLACE TABLE silver.dim_localidade AS
+SELECT
+  monotonically_increasing_id() AS sk_localidade,
+  UPPER(TRIM(localidade)) AS localidade
+FROM bronze.dim_localidade
+WHERE localidade IS NOT NULL;
+
+-> Motivo Afastamento: 
+CREATE OR REPLACE TABLE mvp.silver.dim_motivo_afastamento AS
+SELECT
+  monotonically_increasing_id() AS sk_motivo,
+  codigo_cid
+FROM mvp.bronze.dim_motivo_afastamento
+WHERE codigo_cid IS NOT NULL;
+
+-> Tempo: 
+CREATE OR REPLACE TABLE mvp.silver.dim_tempo AS
+SELECT DISTINCT
+  date(data_inicio_afastamento) AS data,
+  year(data_inicio_afastamento) AS ano,
+  month(data_inicio_afastamento) AS mes,
+  day(data_inicio_afastamento) AS dia
+FROM mvp.bronze.fato_afastamentos
+WHERE data_inicio_afastamento IS NOT NULL;
+
+-> Fato Afastamentos: 
+CREATE OR REPLACE TABLE mvp.silver.fato_afastamentos AS
+SELECT
+  f.matricula,
+  dl.sk_localidade,
+  dm.sk_motivo,
+  dt.data,
+  f.dias_afastados
+FROM mvp.bronze.fato_afastamentos f
+JOIN mvp.silver.dim_localidade dl
+  ON UPPER(TRIM(f.localidade)) = dl.localidade
+JOIN mvp.silver.dim_motivo_afastamento dm
+  ON f.codigo_cid = dm.codigo_cid
+JOIN mvp.silver.dim_tempo dt
+  ON date(f.data_inicio_afastamento) = dt.data;
+
+13) Criação da Tabela Gold: 
+-> Localidade: 
+CREATE OR REPLACE TABLE gold.dim_localidade AS
+SELECT
+  sk_localidade,
+  localidade
+FROM silver.dim_localidade;
+
+-> Motivo Afastamentos: 
+CREATE OR REPLACE TABLE gold.dim_motivo_afastamento AS
+SELECT
+  sk_motivo_afastamento,
+  motivo_afastamento
+FROM silver.dim_motivo_afastamento;
+
+-> Tempo:  
+CREATE OR REPLACE TABLE gold.dim_tempo AS
+SELECT
+  data                      AS data_afastamento,
+  ano,
+  mes,
+  dia,
+  ano_mes
+FROM silver.dim_tempo;
+
+-> Fato Afastamentos: 
+CREATE OR REPLACE TABLE gold.fato_afastamentos AS
+SELECT
+  sk_localidade,
+  sk_motivo_afastamento,
+  data_afastamento,
+  COUNT(DISTINCT matricula) AS qtd_colaboradores_afastados,
+  SUM(dias_afastamento)     AS total_dias_afastamento
+FROM silver.fato_afastamentos
+GROUP BY
+  sk_localidade,
+  sk_motivo_afastamento,
+  data_afastamento;
+
+14) Validação da Criação da Tabela Gold: 
+SHOW TABLES IN gold;
+
+15) Modelo Estrela Criado: 
+SELECT
+  t.ano,
+  t.mes,
+  l.localidade,
+  m.motivo_afastamento,
+  f.qtd_colaboradores_afastados,
+  f.total_dias_afastamento
+FROM gold.fato_afastamentos f
+JOIN gold.dim_tempo t
+  ON f.data_afastamento = t.data_afastamento
+JOIN gold.dim_localidade l
+  ON f.sk_localidade = l.sk_localidade
+JOIN gold.dim_motivo_afastamento m
+  ON f.sk_motivo_afastamento = m.sk_motivo_afastamento;
+
+16) Soluções: 
+16.1) Afastamentos por Localidade:
+SELECT
+  l.localidade,
+  SUM(f.qtd_colaboradores_afastados) AS total_afastamentos
+FROM gold.fato_afastamentos f
+JOIN gold.dim_localidade l
+  ON f.sk_localidade = l.sk_localidade
+GROUP BY l.localidade
+ORDER BY total_afastamentos DESC;
+
+16.2) Principais Motivos: 
+SELECT
+  m.motivo_afastamento,
+  SUM(f.total_dias_afastamento) AS dias_afastados
+FROM gold.fato_afastamentos f
+JOIN gold.dim_motivo_afastamento m
+  ON f.sk_motivo_afastamento = m.sk_motivo_afastamento
+GROUP BY m.motivo_afastamento
+ORDER BY dias_afastados DESC;
+
+16.3) Sazonalidade: 
+SELECT
+  t.ano,
+  t.mes,
+  SUM(f.qtd_colaboradores_afastados) AS afastamentos
+FROM gold.fato_afastamentos f
+JOIN gold.dim_tempo t
+  ON f.data_afastamento = t.data_afastamento
+GROUP BY t.ano, t.mes
+ORDER BY t.ano, t.mes;
+
+16.4) Dias Afastados por Localidade: 
+SELECT
+  l.localidade,
+  SUM(f.total_dias_afastamento) AS total_dias
+FROM gold.fato_afastamentos f
+JOIN gold.dim_localidade l
+  ON f.sk_localidade = l.sk_localidade
+GROUP BY l.localidade;
