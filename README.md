@@ -1,4 +1,6 @@
 # MVP-Puc-2025---Afastamentos
+
+
 1) Visão Geral
 
 Este projeto apresenta a construção de um pipeline de dados em nuvem, utilizando o Databricks Community Edition e Apache Spark, com o objetivo de analisar afastamentos de colaboradores a partir de dados fictícios.
