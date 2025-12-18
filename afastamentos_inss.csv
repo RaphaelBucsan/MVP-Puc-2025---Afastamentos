@@ -1,0 +1,501 @@
+matricula,nome_colaborador,cpf,lotacao,tipo_afastamento,cid,data_inicio_afastamento,data_fim_afastamento,dias_afastados
+25911,Luiza Costa,247.518.906-11,Operações,Auxílio Doença,F32.1,2025-02-21,2025-07-29,158
+24878,Lorena Rocha,687.910.425-85,Comercial,Auxílio Acidente,S93.4,2023-02-21,2023-06-23,122
+18667,Luiza Rodrigues,305.189.426-51,Operações,Aposentadoria por Invalidez,M54.5,2023-10-31,2024-01-21,82
+99243,Agatha Pereira,256.478.309-00,RH,Auxílio Acidente,M54.5,2025-11-14,2026-03-06,112
+64246,Sr. Erick Ramos,435.627.809-74,Comercial,Licença Maternidade,Z34.0,2025-05-07,2025-07-11,65
+43440,Larissa da Rocha,374.529.816-00,Operações,Auxílio Acidente,F32.1,2024-02-15,2024-08-06,173
+34630,Maria Eduarda Monteiro,784.206.913-13,Comercial,Auxílio Acidente,F32.1,2023-02-28,2023-05-06,67
+77727,Beatriz da Cunha,251.406.987-49,Comercial,Auxílio Doença,F32.1,2025-02-27,2025-08-23,177
+15028,Augusto Lima,837.214.506-71,Comercial,Aposentadoria por Invalidez,S93.4,2023-05-26,2023-08-19,85
+38754,Amanda Barbosa,195.703.642-70,Operações,Aposentadoria por Invalidez,S93.4,2024-12-29,2025-05-31,153
+75130,Luiz Henrique Almeida,147.325.096-06,Operações,Aposentadoria por Invalidez,M54.5,2024-12-28,2025-01-10,13
+52407,Larissa Martins,198.426.307-22,Comercial,Aposentadoria por Invalidez,I10,2025-09-08,2026-01-20,134
+34047,Enzo Rodrigues,854.932.067-65,Financeiro,Auxílio Acidente,I10,2023-08-01,2023-10-31,91
+89274,Luiz Felipe Aragão,158.279.360-30,Operações,Auxílio Acidente,F32.1,2023-01-03,2023-04-22,109
+29425,Anthony da Conceição,968.105.247-11,Financeiro,Auxílio Acidente,I10,2023-11-09,2024-03-07,119
+76945,Marcos Vinicius Pereira,305.467.198-48,RH,Auxílio Acidente,F32.1,2024-05-31,2024-07-07,37
+98551,Ana Laura Viana,149.578.203-41,RH,Auxílio Doença,S93.4,2024-02-14,2024-04-09,55
+54756,Bruno Teixeira,562.491.083-51,TI,Licença Maternidade,M54.5,2023-09-06,2023-09-18,12
+35202,Dra. Vitória Castro,361.902.578-95,RH,Aposentadoria por Invalidez,I10,2024-08-10,2024-12-24,136
+70274,Pedro Lucas Barbosa,650.392.871-86,Financeiro,Licença Maternidade,I10,2025-12-10,2026-05-24,165
+95765,Joaquim Farias,681.793.025-12,Comercial,Auxílio Acidente,I10,2024-11-15,2025-05-14,180
+87427,Yasmin Barbosa,064.183.295-89,Comercial,Auxílio Doença,F32.1,2023-01-19,2023-04-29,100
+29856,Joana Dias,765.814.923-37,Operações,Aposentadoria por Invalidez,I10,2025-10-08,2026-04-05,179
+54536,João Miguel da Mota,534.820.791-88,Comercial,Auxílio Acidente,F32.1,2025-10-28,2026-02-05,100
+49800,Bruna da Cruz,280.976.153-12,Financeiro,Aposentadoria por Invalidez,F32.1,2025-03-28,2025-09-18,174
+44325,Gustavo Freitas,204.835.769-56,Financeiro,Auxílio Doença,F32.1,2023-03-02,2023-07-27,147
+57420,Cauê Carvalho,790.432.615-99,TI,Aposentadoria por Invalidez,I10,2023-01-31,2023-04-03,62
+30218,Francisco Rodrigues,281.054.697-58,Financeiro,Auxílio Acidente,S93.4,2024-08-16,2025-01-20,157
+23663,Larissa Rodrigues,182.647.509-58,Financeiro,Auxílio Doença,M54.5,2022-12-20,2023-01-17,28
+63905,Ana Almeida,815.263.470-08,Operações,Licença Maternidade,M54.5,2025-01-08,2025-02-14,37
+88239,Sabrina Rezende,152.038.476-90,RH,Licença Maternidade,S93.4,2023-01-14,2023-03-05,50
+81111,Pedro Nogueira,298.753.061-77,Operações,Auxílio Doença,S93.4,2023-10-26,2024-01-30,96
+29446,Laura Fogaça,457.920.368-29,Financeiro,Licença Maternidade,F32.1,2025-09-25,2025-10-06,11
+12522,Bryan Sales,379.265.841-00,TI,Licença Maternidade,F32.1,2025-09-15,2026-02-26,164
+60875,Davi Luiz Novaes,613.704.985-00,Financeiro,Auxílio Acidente,F32.1,2024-01-06,2024-02-21,46
+66744,Dr. Pedro Lucas da Cunha,308.956.742-38,TI,Licença Maternidade,F32.1,2023-11-26,2024-02-17,83
+76504,Marcela Barros,987.563.412-37,Operações,Aposentadoria por Invalidez,M54.5,2025-02-06,2025-02-24,18
+60873,Isaac da Mota,163.049.278-78,Financeiro,Auxílio Doença,S93.4,2024-02-13,2024-07-25,163
+12690,Sr. Benício Correia,201.538.467-71,Financeiro,Auxílio Doença,M54.5,2023-08-27,2023-11-06,71
+31325,Ana Julia Souza,340.698.175-57,Operações,Auxílio Doença,Z34.0,2025-08-22,2025-12-20,120
+13717,Isabelly Melo,073.965.812-30,Operações,Auxílio Acidente,F32.1,2025-03-17,2025-04-11,25
+14959,Sra. Maria Luiza Alves,259.176.034-99,Financeiro,Aposentadoria por Invalidez,S93.4,2025-11-12,2026-04-18,157
+48771,Luiza Azevedo,741.236.958-09,Operações,Licença Maternidade,I10,2024-09-21,2024-12-12,82
+23756,Vitor Alves,952.410.863-15,Financeiro,Aposentadoria por Invalidez,S93.4,2025-01-06,2025-04-15,99
+80428,Enrico Duarte,372.540.819-04,TI,Aposentadoria por Invalidez,S93.4,2024-08-16,2024-09-28,43
+21006,Heitor Teixeira,520.843.716-35,TI,Auxílio Doença,I10,2023-11-16,2024-01-10,55
+99585,Emanuel Monteiro,950.138.476-48,RH,Licença Maternidade,Z34.0,2024-06-27,2024-11-24,150
+95317,Ana Sophia Santos,801.563.297-86,Comercial,Auxílio Acidente,S93.4,2023-12-04,2023-12-15,11
+89584,Dr. Rafael Teixeira,069.148.523-24,TI,Aposentadoria por Invalidez,I10,2023-02-22,2023-07-30,158
+29559,Murilo da Rosa,029.856.341-05,TI,Aposentadoria por Invalidez,F32.1,2023-05-01,2023-08-27,118
+57358,Ana Júlia Barbosa,403.187.952-05,Financeiro,Auxílio Acidente,F32.1,2024-05-17,2024-08-05,80
+99024,João Felipe Martins,309.621.548-06,Operações,Licença Maternidade,M54.5,2025-12-12,2026-02-21,71
+97889,Davi Luiz Rezende,247.310.685-17,TI,Auxílio Acidente,F32.1,2025-04-29,2025-08-13,106
+57999,Nicole Costela,603.972.145-61,Comercial,Auxílio Doença,Z34.0,2024-11-28,2025-01-02,35
+62787,Enrico Moreira,167.350.829-40,TI,Licença Maternidade,F32.1,2024-04-08,2024-09-07,152
+20506,Joana Nascimento,852.703.619-30,RH,Auxílio Acidente,M54.5,2024-08-05,2024-11-17,104
+93000,Maria Eduarda da Cunha,024.518.367-17,TI,Licença Maternidade,S93.4,2025-08-02,2026-01-21,172
+81427,Luiz Gustavo Cardoso,185.073.962-59,TI,Aposentadoria por Invalidez,Z34.0,2023-02-10,2023-06-01,111
+39317,Samuel Silveira,082.543.671-08,TI,Licença Maternidade,Z34.0,2023-01-29,2023-06-07,129
+84025,Sr. Ryan Melo,120.857.439-60,RH,Auxílio Doença,M54.5,2024-04-05,2024-04-16,11
+98921,Antônio Barbosa,914.368.507-20,Financeiro,Auxílio Doença,I10,2025-06-26,2025-09-16,82
+95916,Calebe da Cruz,475.129.368-00,RH,Auxílio Acidente,M54.5,2024-11-05,2025-03-05,120
+23740,Bianca Sales,531.860.924-42,TI,Licença Maternidade,I10,2024-05-26,2024-08-23,89
+84752,Letícia Peixoto,936.425.817-73,Operações,Licença Maternidade,Z34.0,2024-11-26,2025-05-19,174
+88737,Maria Eduarda Castro,420.615.973-43,RH,Auxílio Doença,M54.5,2024-01-24,2024-04-25,92
+15802,Davi Lucca Caldeira,659.280.417-30,Financeiro,Auxílio Acidente,S93.4,2024-04-21,2024-09-05,137
+71976,Diego da Cruz,581.207.439-97,Operações,Auxílio Acidente,F32.1,2024-03-11,2024-05-27,77
+57103,Ian Nascimento,012.938.574-32,RH,Aposentadoria por Invalidez,M54.5,2025-11-17,2025-11-25,8
+25141,Gabriela Duarte,754.689.321-64,Financeiro,Auxílio Doença,S93.4,2025-12-13,2026-01-05,23
+96347,Alice Vieira,402.537.968-65,Operações,Licença Maternidade,I10,2024-07-06,2024-07-24,18
+14316,Leonardo Carvalho,629.738.015-59,Operações,Auxílio Acidente,S93.4,2023-04-27,2023-10-18,174
+70650,Luana Sales,198.475.203-05,TI,Auxílio Acidente,Z34.0,2024-03-08,2024-05-25,78
+18275,Samuel da Conceição,968.057.134-39,Financeiro,Auxílio Acidente,M54.5,2025-06-19,2025-11-01,135
+66983,João Gabriel Porto,740.895.613-10,Comercial,Licença Maternidade,I10,2024-11-21,2024-12-11,20
+61150,Davi Lucas Ribeiro,367.208.951-68,Operações,Auxílio Acidente,I10,2024-07-16,2024-09-19,65
+70321,Lucas Porto,805.261.934-33,RH,Auxílio Acidente,F32.1,2025-09-18,2025-12-13,86
+32493,Maria Clara Costa,163.029.745-34,Operações,Auxílio Doença,M54.5,2024-06-04,2024-10-29,147
+90106,Laís Silveira,743.958.021-41,TI,Auxílio Doença,S93.4,2025-05-10,2025-07-19,70
+94865,Alexia Caldeira,304.276.591-16,Comercial,Auxílio Doença,F32.1,2023-10-05,2024-01-06,93
+27151,Enzo Gabriel Pereira,645.903.187-84,Financeiro,Aposentadoria por Invalidez,Z34.0,2025-12-13,2026-03-15,92
+44474,Luana Barbosa,859.231.706-12,Operações,Auxílio Doença,S93.4,2024-02-24,2024-08-16,174
+92194,Augusto Fogaça,165.843.907-48,RH,Auxílio Doença,S93.4,2023-03-13,2023-07-31,140
+90605,Letícia Rodrigues,625.914.370-25,Financeiro,Auxílio Doença,F32.1,2023-01-08,2023-05-30,142
+48977,Matheus Silveira,103.468.275-07,TI,Aposentadoria por Invalidez,Z34.0,2025-06-12,2025-07-03,21
+95688,Carlos Eduardo da Luz,304.972.158-88,TI,Auxílio Acidente,F32.1,2023-04-05,2023-05-01,26
+11723,Srta. Camila Nogueira,860.297.513-95,Operações,Aposentadoria por Invalidez,M54.5,2024-05-23,2024-09-26,126
+32810,Nicolas Moreira,690.285.473-47,RH,Aposentadoria por Invalidez,I10,2024-03-01,2024-07-15,136
+65917,Luigi Aragão,027.865.913-68,RH,Aposentadoria por Invalidez,M54.5,2023-10-24,2023-11-23,30
+28358,Nathan Dias,250.768.493-38,TI,Licença Maternidade,I10,2025-09-03,2025-12-23,111
+91231,Ana Julia da Mota,503.127.986-95,Comercial,Auxílio Doença,S93.4,2024-04-06,2024-07-22,107
+47598,Rebeca Lopes,865.207.413-53,Financeiro,Aposentadoria por Invalidez,S93.4,2023-06-12,2023-10-04,114
+98685,Raul das Neves,506.847.192-58,Comercial,Auxílio Doença,I10,2025-04-06,2025-06-24,79
+20054,Bryan Cardoso,085.342.697-00,Comercial,Auxílio Acidente,F32.1,2023-02-21,2023-04-23,61
+62074,João Lucas das Neves,064.218.793-22,Operações,Licença Maternidade,M54.5,2024-01-21,2024-03-05,44
+76186,Sarah Viana,891.427.036-03,Operações,Auxílio Acidente,M54.5,2023-08-07,2024-01-10,156
+59531,Antônio Moraes,654.182.793-19,Comercial,Aposentadoria por Invalidez,Z34.0,2025-02-25,2025-06-18,113
+67253,Igor Gomes,784.960.523-38,Operações,Auxílio Doença,I10,2022-12-20,2023-04-25,126
+62497,Sr. Joaquim Ferreira,241.879.506-30,Operações,Licença Maternidade,I10,2025-09-12,2025-12-15,94
+26772,Isis Rezende,320.571.649-34,TI,Aposentadoria por Invalidez,F32.1,2025-03-29,2025-07-10,103
+99208,Dr. Vitor Ramos,783.514.926-55,Financeiro,Licença Maternidade,I10,2025-03-01,2025-08-23,175
+87676,Davi Lucas Novaes,748.592.106-11,Comercial,Auxílio Doença,S93.4,2022-12-24,2023-02-18,56
+99099,Srta. Eloah Viana,527.146.830-53,Operações,Aposentadoria por Invalidez,Z34.0,2023-07-30,2023-11-17,110
+47791,Luiz Fernando Rodrigues,793.501.284-97,Comercial,Auxílio Acidente,Z34.0,2025-03-29,2025-07-18,111
+59270,Julia Peixoto,065.739.821-77,Financeiro,Auxílio Doença,S93.4,2024-05-09,2024-05-24,15
+25333,Sabrina Viana,924.875.036-29,RH,Auxílio Doença,M54.5,2025-03-11,2025-03-29,18
+69657,Ana Julia Rocha,147.532.908-32,RH,Licença Maternidade,F32.1,2023-11-06,2023-11-24,18
+76378,Bárbara Jesus,528.604.137-07,RH,Auxílio Doença,Z34.0,2023-10-16,2024-03-02,138
+94094,Ana Beatriz da Mota,647.580.132-17,RH,Aposentadoria por Invalidez,I10,2024-08-15,2024-12-24,131
+50080,Catarina Novaes,586.720.913-02,TI,Auxílio Doença,I10,2023-01-12,2023-03-02,49
+72778,Dra. Maria Luiza Silveira,617.098.432-50,Operações,Aposentadoria por Invalidez,M54.5,2025-07-14,2025-09-09,57
+67311,Laura Barbosa,025.376.498-00,Comercial,Licença Maternidade,Z34.0,2023-04-02,2023-09-15,166
+85965,Bruna Novaes,573.149.028-79,Comercial,Licença Maternidade,M54.5,2024-01-19,2024-02-14,26
+26535,Rafaela Aragão,490.812.763-87,Financeiro,Aposentadoria por Invalidez,F32.1,2025-06-24,2025-08-11,48
+52042,Mariane da Luz,709.682.354-92,TI,Licença Maternidade,S93.4,2025-09-24,2025-12-08,75
+29982,Sra. Lavínia Nascimento,867.359.014-01,Financeiro,Licença Maternidade,F32.1,2024-05-23,2024-07-01,39
+70624,Maria Fernanda Silva,243.018.956-98,Operações,Auxílio Acidente,Z34.0,2023-07-01,2023-10-21,112
+66615,Yuri Rodrigues,960.138.752-86,RH,Auxílio Doença,I10,2024-05-09,2024-07-09,61
+32891,Clara Peixoto,834.620.715-80,Comercial,Auxílio Doença,M54.5,2023-10-27,2024-02-27,123
+63814,Maria da Rosa,765.389.214-00,Comercial,Licença Maternidade,Z34.0,2024-11-29,2025-03-15,106
+23350,Eduarda da Mota,356.490.817-00,Financeiro,Aposentadoria por Invalidez,M54.5,2024-07-15,2024-08-05,21
+55463,Dra. Maria Julia Rodrigues,405.761.983-66,TI,Licença Maternidade,Z34.0,2025-03-31,2025-08-05,127
+98790,Benício Cardoso,874.165.209-67,Comercial,Licença Maternidade,S93.4,2024-09-20,2024-11-18,59
+33313,João Cardoso,956.031.824-15,Comercial,Licença Maternidade,I10,2025-10-16,2026-03-22,157
+94337,Maria Vitória Ferreira,216.875.943-09,Comercial,Licença Maternidade,I10,2024-01-19,2024-02-03,15
+68906,Sr. Pedro Henrique Lima,214.783.905-14,Comercial,Auxílio Doença,F32.1,2025-11-02,2025-11-25,23
+82674,Bernardo da Rocha,178.354.906-84,RH,Aposentadoria por Invalidez,Z34.0,2025-12-05,2026-03-28,113
+70326,Sr. Carlos Eduardo Aragão,316.875.420-07,TI,Auxílio Acidente,S93.4,2025-10-13,2025-11-21,39
+70615,Heitor Almeida,439.560.718-75,Operações,Aposentadoria por Invalidez,S93.4,2024-01-26,2024-04-03,68
+10507,Luiza Rezende,674.531.908-00,Comercial,Auxílio Doença,M54.5,2024-08-19,2024-12-19,122
+13135,Sr. Lorenzo Rocha,691.854.703-84,Comercial,Auxílio Acidente,M54.5,2023-12-03,2024-05-12,161
+97300,João Gabriel Martins,506.148.932-24,TI,Aposentadoria por Invalidez,S93.4,2025-05-01,2025-08-24,115
+26909,Ana Beatriz Ribeiro,135.264.078-35,Comercial,Auxílio Acidente,S93.4,2025-06-21,2025-09-09,80
+69302,Juliana Porto,892.165.703-77,Comercial,Auxílio Doença,F32.1,2025-02-07,2025-03-18,39
+43580,Bruno Correia,231.095.864-60,RH,Licença Maternidade,S93.4,2025-06-25,2025-12-18,176
+66887,Bianca Peixoto,497.503.621-52,Operações,Auxílio Doença,Z34.0,2024-06-13,2024-09-25,104
+84910,Srta. Ana Luiza das Neves,062.514.897-58,Comercial,Licença Maternidade,Z34.0,2024-11-09,2025-04-12,154
+61176,Milena Porto,520.179.846-20,Operações,Auxílio Doença,S93.4,2025-06-12,2025-08-03,52
+22013,Arthur Rodrigues,405.163.297-07,Operações,Aposentadoria por Invalidez,S93.4,2023-10-16,2024-02-17,124
+10414,Joana da Costa,520.967.431-25,Financeiro,Licença Maternidade,I10,2023-09-14,2023-12-15,92
+59017,Rebeca Cardoso,491.867.350-39,Operações,Licença Maternidade,M54.5,2023-02-17,2023-04-23,65
+37492,Isabel Rodrigues,964.250.713-70,Comercial,Auxílio Acidente,S93.4,2025-02-14,2025-06-05,111
+16754,Vitor Ferreira,410.598.236-24,TI,Licença Maternidade,I10,2024-04-21,2024-08-17,118
+18956,Sr. Otávio da Rosa,105.634.897-66,RH,Aposentadoria por Invalidez,F32.1,2023-08-31,2023-11-29,90
+57979,Dr. João Miguel Moura,785.629.341-19,TI,Auxílio Acidente,F32.1,2025-08-31,2026-01-12,134
+55801,Lorena das Neves,653.014.729-25,RH,Auxílio Acidente,S93.4,2025-04-19,2025-05-31,42
+14480,Kevin Melo,631.842.079-78,Operações,Auxílio Doença,Z34.0,2025-12-15,2026-02-20,67
+67689,Sr. Pedro Lucas Caldeira,738.014.652-17,Comercial,Auxílio Doença,I10,2023-01-11,2023-04-23,102
+56364,Olivia da Luz,693.854.210-42,Operações,Aposentadoria por Invalidez,S93.4,2025-04-25,2025-07-01,67
+96666,Enzo Gabriel Barbosa,571.294.380-88,RH,Aposentadoria por Invalidez,S93.4,2025-08-08,2026-01-15,160
+68739,Dra. Sophia Viana,624.708.193-69,Operações,Licença Maternidade,Z34.0,2024-03-30,2024-07-18,110
+21246,Natália Ramos,218.706.594-49,TI,Auxílio Acidente,M54.5,2024-10-03,2024-11-25,53
+77141,Nicolas Santos,760.249.815-11,Operações,Auxílio Doença,M54.5,2024-09-08,2024-10-27,49
+28985,Ana Sophia Fernandes,945.703.216-07,TI,Licença Maternidade,I10,2023-07-14,2023-10-05,83
+43461,Luiz Otávio da Rosa,853.709.261-40,Operações,Aposentadoria por Invalidez,M54.5,2025-08-03,2025-08-15,12
+19290,Mirella Pereira,632.590.784-10,Financeiro,Aposentadoria por Invalidez,F32.1,2025-08-20,2025-10-04,45
+13701,Alexandre Porto,409.753.862-47,RH,Aposentadoria por Invalidez,F32.1,2024-12-22,2025-06-18,178
+56725,Paulo Silva,702.683.914-40,RH,Auxílio Acidente,Z34.0,2023-09-17,2023-12-25,99
+12749,Clarice Alves,706.283.594-38,Operações,Auxílio Acidente,M54.5,2023-01-31,2023-06-03,123
+63831,Maria Clara Barros,431.760.952-52,TI,Auxílio Doença,F32.1,2023-02-19,2023-03-29,38
+78027,Bryan Alves,647.082.513-35,Operações,Auxílio Acidente,F32.1,2024-03-02,2024-08-19,170
+26093,Kamilly da Mota,216.075.934-16,Operações,Auxílio Doença,F32.1,2023-02-01,2023-05-15,103
+35063,Manuela Alves,076.154.928-58,Comercial,Licença Maternidade,I10,2023-06-14,2023-07-30,46
+91752,Isabel Vieira,794.638.510-20,RH,Aposentadoria por Invalidez,I10,2024-07-21,2024-12-19,151
+20060,Ana Carolina da Costa,430.257.168-35,TI,Auxílio Acidente,F32.1,2024-03-21,2024-04-13,23
+51749,Pedro Henrique Peixoto,598.617.230-21,Financeiro,Aposentadoria por Invalidez,F32.1,2024-04-28,2024-10-22,177
+80012,Eduardo Pereira,310.468.957-10,Operações,Auxílio Doença,S93.4,2023-02-15,2023-04-28,72
+98723,Anthony Fernandes,549.280.673-47,RH,Licença Maternidade,M54.5,2024-05-24,2024-08-06,74
+17514,Sr. Pedro Miguel Carvalho,485.162.703-35,TI,Auxílio Doença,I10,2024-05-04,2024-10-21,170
+61238,Alana Rocha,431.597.620-25,Comercial,Auxílio Doença,M54.5,2023-06-30,2023-12-18,171
+36851,Matheus Cardoso,580.243.197-05,Financeiro,Licença Maternidade,I10,2025-01-02,2025-05-26,144
+52884,Vicente Nunes,586.703.129-21,RH,Aposentadoria por Invalidez,M54.5,2024-09-22,2024-10-25,33
+28529,Isadora Nogueira,781.296.403-50,RH,Aposentadoria por Invalidez,I10,2023-08-14,2023-08-22,8
+45722,Murilo Cunha,690.257.431-61,RH,Auxílio Acidente,Z34.0,2025-01-23,2025-04-29,96
+87531,Fernando Almeida,967.542.308-00,RH,Auxílio Acidente,S93.4,2024-03-23,2024-09-13,174
+47549,Juliana Rodrigues,167.820.354-80,RH,Auxílio Acidente,I10,2023-09-07,2023-10-23,46
+31738,Agatha da Paz,789.021.453-79,Operações,Licença Maternidade,I10,2023-08-01,2023-10-14,74
+78089,Lorenzo Silveira,362.947.508-65,TI,Auxílio Doença,I10,2023-09-12,2023-10-23,41
+66555,Luiz Henrique Rodrigues,482.970.653-83,Financeiro,Auxílio Acidente,Z34.0,2025-10-12,2026-03-10,149
+90342,Dra. Ana Vitória Vieira,148.025.963-24,TI,Auxílio Doença,M54.5,2023-01-12,2023-04-05,83
+29284,Isabelly Moura,468.791.302-40,Financeiro,Licença Maternidade,S93.4,2023-12-09,2024-05-21,164
+65770,Dra. Maria Vitória Aragão,081.236.975-03,Financeiro,Licença Maternidade,F32.1,2025-02-18,2025-06-11,113
+58301,Enzo Gabriel Almeida,804.972.516-20,Comercial,Auxílio Acidente,M54.5,2025-01-26,2025-06-02,127
+80840,Ana Laura Ramos,816.240.357-44,Comercial,Licença Maternidade,I10,2023-06-15,2023-12-07,175
+57533,Gustavo Cavalcanti,946.205.817-20,TI,Auxílio Doença,F32.1,2025-08-29,2026-01-05,129
+62286,Isadora Pinto,152.630.978-59,Financeiro,Aposentadoria por Invalidez,S93.4,2022-12-18,2023-01-07,20
+13055,Sra. Ana Lívia Rezende,304.791.625-06,RH,Aposentadoria por Invalidez,Z34.0,2022-12-30,2023-01-17,18
+53144,João Lucas Moreira,081.295.643-51,Operações,Auxílio Acidente,I10,2025-03-22,2025-04-07,16
+39309,Helena Fernandes,623.978.501-68,Operações,Aposentadoria por Invalidez,M54.5,2023-07-28,2023-11-23,118
+97088,Ryan Silveira,705.324.168-80,Operações,Auxílio Acidente,F32.1,2025-10-09,2025-11-25,47
+53270,Lucas Gabriel Souza,048.927.136-78,Financeiro,Licença Maternidade,S93.4,2023-05-14,2023-05-24,10
+50652,Joaquim Moreira,918.402.756-85,Comercial,Auxílio Acidente,I10,2024-05-02,2024-09-03,124
+76234,Thomas Rocha,842.301.569-60,Comercial,Auxílio Acidente,F32.1,2024-11-13,2025-01-13,61
+43824,Milena Cardoso,023.647.598-38,Operações,Aposentadoria por Invalidez,M54.5,2023-10-05,2024-01-23,110
+17268,Maria Fernanda Alves,027.981.346-50,Operações,Aposentadoria por Invalidez,F32.1,2023-10-13,2023-11-11,29
+70193,Gabriela Rezende,732.958.401-05,Comercial,Aposentadoria por Invalidez,S93.4,2024-01-01,2024-01-21,20
+51407,Letícia Ramos,946.578.132-00,Financeiro,Licença Maternidade,I10,2023-09-22,2024-02-29,160
+38819,Gustavo Henrique Souza,980.461.735-84,RH,Licença Maternidade,F32.1,2023-10-04,2024-01-22,110
+27194,Dra. Agatha Teixeira,810.763.492-69,Financeiro,Licença Maternidade,I10,2023-07-29,2023-09-06,39
+85291,Maria Alice Silva,523.871.690-77,RH,Licença Maternidade,F32.1,2024-01-29,2024-03-29,60
+42008,Emanuella da Luz,407.256.319-61,TI,Auxílio Doença,M54.5,2023-01-21,2023-02-23,33
+70360,Ana Sophia da Mata,061.273.985-68,RH,Aposentadoria por Invalidez,I10,2025-04-30,2025-09-12,135
+94210,Thomas Cunha,837.426.015-71,Operações,Auxílio Acidente,F32.1,2025-08-27,2025-12-08,103
+60061,Bernardo Azevedo,681.254.907-01,Comercial,Aposentadoria por Invalidez,Z34.0,2024-06-06,2024-10-09,125
+23195,Dra. Isadora Fernandes,435.179.208-60,RH,Auxílio Acidente,S93.4,2025-05-29,2025-10-04,128
+56539,Srta. Marcela da Paz,864.310.729-87,Operações,Auxílio Doença,F32.1,2023-07-15,2023-10-13,90
+13685,Evelyn Ramos,903.846.157-75,TI,Aposentadoria por Invalidez,I10,2023-07-08,2023-08-11,34
+62575,Mirella Azevedo,356.908.241-51,RH,Aposentadoria por Invalidez,F32.1,2025-12-06,2026-03-08,92
+59656,Vitória Nogueira,569.041.832-33,Financeiro,Licença Maternidade,M54.5,2023-12-28,2024-05-04,128
+83237,Ian da Rocha,486.279.053-47,Operações,Licença Maternidade,M54.5,2023-09-29,2024-03-03,156
+54045,Luiz Felipe Nogueira,650.872.341-35,Financeiro,Licença Maternidade,Z34.0,2025-01-13,2025-02-05,23
+86767,Larissa Cardoso,364.089.512-60,Comercial,Licença Maternidade,M54.5,2025-12-12,2026-04-03,112
+18371,Vitor Gabriel Nascimento,914.837.652-37,TI,Auxílio Doença,Z34.0,2023-12-31,2024-06-09,161
+86877,Vitor Gabriel Moura,019.276.483-78,Financeiro,Licença Maternidade,Z34.0,2025-09-28,2026-02-08,133
+42403,Enzo Barbosa,857.364.190-84,TI,Auxílio Doença,F32.1,2023-10-20,2024-04-13,176
+81232,Sophie Sales,831.526.497-46,TI,Auxílio Acidente,Z34.0,2025-09-19,2026-02-10,144
+69899,Marcos Vinicius da Conceição,329.710.486-40,TI,Auxílio Acidente,S93.4,2024-09-21,2025-02-15,147
+49045,Thiago Moura,718.604.392-50,Comercial,Aposentadoria por Invalidez,Z34.0,2024-08-06,2024-09-12,37
+68347,Leonardo Melo,109.586.427-02,Operações,Aposentadoria por Invalidez,S93.4,2025-02-27,2025-05-05,67
+31886,Matheus Gomes,374.192.605-16,TI,Licença Maternidade,I10,2024-03-07,2024-06-13,98
+36654,Gabriela Silva,590.126.437-16,Financeiro,Aposentadoria por Invalidez,Z34.0,2025-06-25,2025-07-18,23
+10860,Maria Alice Fogaça,064.893.725-92,RH,Auxílio Doença,I10,2025-08-09,2025-08-25,16
+27210,Paulo Porto,694.108.375-10,Financeiro,Licença Maternidade,S93.4,2023-07-25,2023-10-08,75
+66770,Maria Clara Fernandes,431.280.756-62,RH,Auxílio Doença,Z34.0,2025-03-06,2025-08-06,153
+26391,Caio Ramos,892.563.407-47,Operações,Aposentadoria por Invalidez,I10,2023-06-23,2023-08-24,62
+78018,Julia Costela,798.052.163-30,TI,Auxílio Doença,F32.1,2024-12-02,2025-04-20,139
+16184,Eloah da Cunha,236.159.870-12,Financeiro,Auxílio Acidente,F32.1,2024-06-07,2024-06-23,16
+37163,Bianca Monteiro,102.583.476-35,RH,Auxílio Doença,M54.5,2025-07-23,2025-11-26,126
+74461,Luiza Barros,257.140.693-07,Comercial,Licença Maternidade,Z34.0,2025-10-31,2026-02-26,118
+87807,Luiz Henrique Cunha,413.578.269-82,RH,Aposentadoria por Invalidez,M54.5,2024-12-27,2025-01-23,27
+48881,Enrico Costela,592.401.786-94,Comercial,Aposentadoria por Invalidez,F32.1,2024-07-12,2024-08-27,46
+83837,Luiz Gustavo Cavalcanti,321.945.678-28,TI,Auxílio Acidente,Z34.0,2024-11-27,2024-12-05,8
+15083,Pedro Miguel Fogaça,804.679.251-94,Comercial,Aposentadoria por Invalidez,I10,2023-02-23,2023-07-24,151
+99898,João Gabriel Carvalho,056.387.921-12,RH,Auxílio Doença,I10,2023-04-03,2023-04-22,19
+50146,Juan Costela,748.520.396-74,Operações,Auxílio Acidente,M54.5,2023-07-09,2023-10-12,95
+53330,Vinicius Teixeira,538.214.769-82,RH,Auxílio Doença,F32.1,2024-02-23,2024-03-21,27
+13829,Ian Correia,768.350.912-40,Comercial,Aposentadoria por Invalidez,S93.4,2024-09-18,2024-11-04,47
+98638,Bianca Porto,703.412.586-44,Financeiro,Aposentadoria por Invalidez,S93.4,2023-02-27,2023-03-19,20
+16525,Erick Gomes,395.106.748-93,TI,Aposentadoria por Invalidez,M54.5,2023-10-23,2024-02-29,129
+61848,Lucas Gabriel Correia,437.196.825-28,TI,Aposentadoria por Invalidez,I10,2023-11-04,2023-12-05,31
+53743,Julia Aragão,603.719.584-66,TI,Aposentadoria por Invalidez,I10,2023-05-09,2023-08-05,88
+62069,Maria Gonçalves,536.412.709-52,Operações,Licença Maternidade,I10,2024-04-17,2024-09-25,161
+40889,Vitor Hugo Costa,620.845.179-58,RH,Licença Maternidade,M54.5,2023-01-01,2023-03-17,75
+60925,Catarina Campos,162.895.403-51,TI,Auxílio Acidente,F32.1,2025-07-29,2025-09-14,47
+62145,Diogo Azevedo,406.178.239-87,Operações,Auxílio Doença,M54.5,2025-07-17,2025-10-19,94
+22415,Lara Nunes,893.270.465-10,RH,Aposentadoria por Invalidez,S93.4,2024-04-09,2024-07-30,112
+60948,Srta. Isadora Ferreira,731.825.964-46,Comercial,Licença Maternidade,I10,2025-03-23,2025-04-22,30
+22674,Dr. Lucca Azevedo,395.072.641-16,Comercial,Auxílio Acidente,I10,2025-03-12,2025-06-20,100
+41223,Theo das Neves,460.823.519-24,Financeiro,Licença Maternidade,S93.4,2023-03-12,2023-08-11,152
+93176,Natália Melo,648.170.325-53,RH,Auxílio Doença,I10,2025-05-17,2025-07-05,49
+71586,Davi Lucca Ramos,716.582.349-28,Operações,Licença Maternidade,S93.4,2023-12-07,2023-12-22,15
+27341,Pedro Lucas Pinto,970.536.821-02,TI,Auxílio Acidente,S93.4,2024-08-17,2025-01-09,145
+78244,Cauê Rocha,580.916.237-12,TI,Auxílio Acidente,S93.4,2024-10-12,2024-12-13,62
+71525,Vicente da Mota,745.092.163-43,TI,Auxílio Doença,F32.1,2025-11-16,2025-12-08,22
+61637,Davi Teixeira,986.573.421-46,Operações,Aposentadoria por Invalidez,I10,2024-08-08,2024-10-30,83
+42288,Lucca Melo,964.520.371-61,Operações,Aposentadoria por Invalidez,Z34.0,2025-04-01,2025-04-24,23
+66314,Ryan Moraes,746.532.091-70,Operações,Aposentadoria por Invalidez,M54.5,2025-11-29,2026-02-09,72
+57530,Emilly Cavalcanti,231.904.768-96,Comercial,Auxílio Acidente,M54.5,2023-01-24,2023-07-23,180
+52600,Eduardo Fernandes,671.432.958-09,Operações,Auxílio Doença,S93.4,2024-02-27,2024-07-04,128
+27248,Manuela Rocha,798.654.123-73,Operações,Auxílio Doença,S93.4,2022-12-28,2023-06-13,167
+51126,Pedro Miguel Castro,347.269.018-69,Operações,Auxílio Acidente,Z34.0,2025-10-26,2026-03-25,150
+47006,Sra. Ana Vitória Viana,713.489.650-10,RH,Auxílio Acidente,M54.5,2025-10-06,2025-12-15,70
+24825,Giovanna Sales,796.018.435-66,Comercial,Auxílio Doença,Z34.0,2024-03-08,2024-04-11,34
+41793,Pietra Moura,348.057.629-00,TI,Aposentadoria por Invalidez,I10,2024-12-09,2025-05-10,152
+61587,Davi Lucas Correia,057.628.943-47,Financeiro,Auxílio Doença,F32.1,2024-04-01,2024-07-04,94
+17806,Lorena da Rosa,175.928.034-88,TI,Licença Maternidade,Z34.0,2024-04-24,2024-05-23,29
+16821,Dra. Sofia Moraes,298.670.354-29,Operações,Auxílio Acidente,S93.4,2024-11-28,2025-03-08,100
+20068,Vicente Lopes,305.492.817-97,RH,Licença Maternidade,S93.4,2025-10-11,2026-02-04,116
+36358,Nathan Oliveira,982.504.163-33,TI,Auxílio Acidente,F32.1,2025-04-27,2025-08-28,123
+95926,Helena da Conceição,942.137.685-46,Comercial,Auxílio Acidente,M54.5,2024-08-19,2024-11-23,96
+75554,Pietro Viana,016.394.857-75,Operações,Licença Maternidade,M54.5,2024-01-16,2024-03-18,62
+68183,Daniela Lima,463.590.128-98,TI,Auxílio Acidente,Z34.0,2025-02-02,2025-02-22,20
+81300,Júlia Ramos,561.028.439-24,RH,Auxílio Acidente,I10,2024-02-07,2024-06-27,141
+67386,Letícia Cavalcanti,524.096.173-52,Financeiro,Auxílio Acidente,Z34.0,2023-05-15,2023-10-03,141
+43188,Clara Alves,519.403.862-33,Comercial,Auxílio Acidente,F32.1,2024-10-28,2024-12-15,48
+73617,Sr. Murilo Cunha,892.617.534-00,Financeiro,Auxílio Doença,I10,2023-06-21,2023-08-01,41
+25443,Mariane da Conceição,465.217.380-62,TI,Licença Maternidade,Z34.0,2024-08-30,2025-02-22,176
+22978,Ana Sophia da Cruz,061.975.324-25,Financeiro,Aposentadoria por Invalidez,Z34.0,2023-12-27,2024-05-25,150
+39074,Dr. Thales Santos,608.517.492-67,Operações,Auxílio Doença,F32.1,2024-05-31,2024-07-27,57
+38140,Sr. Enzo das Neves,165.924.037-99,Operações,Licença Maternidade,Z34.0,2023-03-11,2023-04-26,46
+77111,Sr. Vitor Hugo Cunha,940.567.381-57,RH,Aposentadoria por Invalidez,S93.4,2025-08-15,2026-02-05,174
+60312,Francisco das Neves,804.356.197-48,Comercial,Auxílio Acidente,M54.5,2023-10-21,2024-02-06,108
+22722,Laís Peixoto,731.849.605-01,Operações,Auxílio Acidente,S93.4,2023-11-23,2024-01-28,66
+83632,Alícia da Costa,643.729.018-87,TI,Aposentadoria por Invalidez,I10,2024-03-28,2024-04-30,33
+93375,Evelyn Gomes,258.134.609-42,Comercial,Auxílio Doença,M54.5,2025-11-11,2025-12-17,36
+30491,Arthur Costa,378.521.049-32,Financeiro,Aposentadoria por Invalidez,Z34.0,2024-09-04,2024-09-19,15
+72667,Carlos Eduardo Teixeira,703.421.965-61,Operações,Auxílio Acidente,Z34.0,2023-04-05,2023-06-03,59
+43425,Vinicius Ribeiro,691.075.342-99,RH,Auxílio Doença,S93.4,2023-11-09,2024-02-21,104
+88722,Luiz Otávio Almeida,347.190.265-16,Operações,Auxílio Doença,S93.4,2023-01-30,2023-02-27,28
+91380,Sra. Maria Eduarda Vieira,835.061.794-20,RH,Licença Maternidade,M54.5,2025-05-25,2025-10-22,150
+64080,Thiago Araújo,976.805.213-95,TI,Aposentadoria por Invalidez,S93.4,2023-11-22,2024-05-03,163
+53167,Gabriela Ferreira,381.760.542-08,Financeiro,Auxílio Doença,S93.4,2023-04-27,2023-10-05,161
+34851,Gustavo Henrique Gomes,508.493.627-92,RH,Auxílio Doença,Z34.0,2024-01-05,2024-03-30,85
+22025,Maria Sophia Rezende,712.804.593-79,Operações,Licença Maternidade,F32.1,2023-03-05,2023-04-28,54
+43105,Alícia Gonçalves,347.628.019-50,TI,Licença Maternidade,I10,2025-09-09,2026-02-23,167
+97920,Benjamin Rodrigues,201.968.345-89,TI,Aposentadoria por Invalidez,I10,2024-06-11,2024-06-16,5
+33589,Paulo Melo,534.619.720-61,RH,Auxílio Acidente,S93.4,2023-10-15,2024-03-07,144
+39907,Maria Cecília da Conceição,153.268.407-07,RH,Aposentadoria por Invalidez,F32.1,2025-02-24,2025-03-17,21
+49213,Lucas Ribeiro,721.438.650-07,Operações,Auxílio Acidente,Z34.0,2025-03-27,2025-05-26,60
+31805,Diego Mendes,340.581.926-15,Comercial,Licença Maternidade,I10,2023-01-08,2023-05-25,137
+76336,Dra. Letícia Farias,698.123.704-04,RH,Aposentadoria por Invalidez,F32.1,2025-12-01,2025-12-25,24
+65190,Maitê Sales,381.045.927-50,Financeiro,Auxílio Acidente,F32.1,2024-08-10,2025-01-16,159
+24057,Rafael Pires,570.219.834-41,Comercial,Aposentadoria por Invalidez,F32.1,2024-10-13,2024-11-04,22
+33153,Gustavo da Mata,083.714.965-75,Comercial,Auxílio Acidente,M54.5,2025-11-21,2026-01-24,64
+43492,Guilherme Melo,326.108.597-59,RH,Auxílio Acidente,F32.1,2025-05-10,2025-06-13,34
+25265,Luana Alves,057.493.682-38,TI,Aposentadoria por Invalidez,S93.4,2024-02-29,2024-08-13,166
+19290,Helena Pereira,509.712.386-77,Financeiro,Licença Maternidade,S93.4,2025-10-16,2025-12-29,74
+28136,Ana Luiza Cavalcanti,015.837.469-00,RH,Aposentadoria por Invalidez,S93.4,2024-10-10,2025-03-29,170
+86116,Sr. Lucas Gabriel da Costa,843.092.571-60,Operações,Licença Maternidade,F32.1,2025-12-08,2026-04-08,121
+60723,Maysa Cardoso,426.783.950-65,Financeiro,Aposentadoria por Invalidez,I10,2024-05-18,2024-06-27,40
+11053,Arthur Costela,943.681.072-50,RH,Auxílio Doença,S93.4,2024-12-18,2025-02-10,54
+68416,Isabella Alves,659.028.741-49,TI,Auxílio Doença,M54.5,2023-05-06,2023-10-29,176
+33220,Srta. Melissa Araújo,590.731.864-39,Comercial,Licença Maternidade,F32.1,2024-01-25,2024-03-01,36
+67138,Pedro Lucas Farias,189.056.324-24,RH,Aposentadoria por Invalidez,M54.5,2023-01-03,2023-04-18,105
+26515,Vitor Gabriel Ribeiro,196.308.745-39,RH,Auxílio Doença,S93.4,2025-05-18,2025-10-04,139
+41067,Enrico da Rosa,541.627.398-46,Comercial,Auxílio Acidente,S93.4,2023-09-16,2024-02-09,146
+32216,Paulo da Costa,806.734.291-13,Operações,Auxílio Acidente,F32.1,2023-01-15,2023-01-24,9
+64205,Dr. Rafael Lopes,657.189.230-86,TI,Aposentadoria por Invalidez,Z34.0,2024-06-12,2024-11-12,153
+21513,Dra. Alícia Araújo,896.541.237-46,Financeiro,Auxílio Doença,I10,2024-05-09,2024-10-03,147
+65933,Dr. Matheus Campos,689.153.247-73,Financeiro,Auxílio Doença,Z34.0,2024-04-07,2024-07-23,107
+19816,Lorena Costela,921.463.058-51,RH,Auxílio Doença,Z34.0,2024-12-15,2025-02-23,70
+19315,Benjamin Oliveira,431.078.965-00,Comercial,Licença Maternidade,I10,2025-07-17,2025-10-26,101
+21160,Heitor Novaes,124.568.097-85,RH,Auxílio Doença,S93.4,2024-12-03,2025-05-17,165
+90747,Mirella da Cunha,804.639.125-51,Operações,Auxílio Acidente,S93.4,2023-04-11,2023-06-12,62
+77581,Emanuelly Gomes,523.861.947-28,TI,Auxílio Doença,S93.4,2023-08-24,2024-01-20,149
+17928,Raul Caldeira,564.198.320-98,TI,Auxílio Doença,M54.5,2025-10-05,2025-12-01,57
+93372,Valentina Viana,765.480.132-71,Financeiro,Auxílio Doença,Z34.0,2023-09-28,2023-11-20,53
+68899,Augusto Novaes,053.482.719-50,Comercial,Aposentadoria por Invalidez,I10,2023-12-30,2024-04-14,106
+67844,João Gabriel Almeida,074.268.591-85,Comercial,Aposentadoria por Invalidez,Z34.0,2023-08-08,2023-12-20,134
+71183,Maria Luiza Peixoto,071.692.534-61,Financeiro,Licença Maternidade,Z34.0,2023-12-06,2024-01-11,36
+63730,Pedro Henrique Duarte,016.238.795-40,TI,Auxílio Acidente,Z34.0,2023-05-14,2023-08-24,102
+60379,Cauê Viana,876.302.941-31,Financeiro,Aposentadoria por Invalidez,I10,2024-06-20,2024-10-10,112
+22251,Luiz Gustavo da Rocha,067.584.321-90,TI,Aposentadoria por Invalidez,M54.5,2024-09-15,2024-12-07,83
+50458,Kaique Ribeiro,583.726.910-02,Financeiro,Auxílio Acidente,S93.4,2024-01-22,2024-05-07,106
+80232,João Lucas Campos,831.496.705-00,Comercial,Aposentadoria por Invalidez,I10,2025-10-27,2026-04-11,166
+52270,Raul Novaes,486.920.137-22,Operações,Auxílio Acidente,S93.4,2025-04-16,2025-09-06,143
+78077,João Gabriel Viana,370.145.986-00,TI,Aposentadoria por Invalidez,F32.1,2024-01-29,2024-02-10,12
+89133,Dra. Luna Costa,740.813.659-20,Operações,Aposentadoria por Invalidez,M54.5,2025-10-14,2025-12-20,67
+37206,Maria Cecília Moura,286.015.794-85,Operações,Auxílio Doença,F32.1,2023-12-03,2024-01-11,39
+91049,Pietra da Cruz,264.198.305-24,RH,Auxílio Doença,M54.5,2025-07-15,2025-11-20,128
+16988,Lavínia Porto,176.089.524-58,Comercial,Auxílio Acidente,Z34.0,2023-05-01,2023-09-30,152
+53589,Ryan Aragão,520.163.798-12,Comercial,Aposentadoria por Invalidez,M54.5,2024-06-24,2024-07-10,16
+59132,Leonardo da Luz,872.503.614-90,Financeiro,Auxílio Doença,Z34.0,2025-08-04,2025-12-12,130
+94650,Marcela Rezende,173.946.582-28,Operações,Licença Maternidade,Z34.0,2025-09-09,2026-01-31,144
+82146,Miguel Ferreira,287.450.196-49,TI,Auxílio Doença,S93.4,2025-04-29,2025-10-04,158
+75803,Sarah da Mata,825.769.041-49,Operações,Auxílio Acidente,M54.5,2024-10-23,2024-11-12,20
+42072,Alexia da Luz,692.187.043-03,Financeiro,Auxílio Doença,S93.4,2025-02-28,2025-03-24,24
+27223,Srta. Camila Pires,719.426.358-00,Comercial,Licença Maternidade,I10,2023-01-21,2023-07-13,173
+89846,Dr. Thales Fogaça,617.423.589-00,RH,Auxílio Acidente,Z34.0,2023-10-16,2023-12-03,48
+60079,Alexia Nascimento,948.271.365-64,Financeiro,Licença Maternidade,F32.1,2025-01-13,2025-03-24,70
+42137,Vinicius Cunha,803.796.241-50,Financeiro,Aposentadoria por Invalidez,Z34.0,2024-06-28,2024-07-31,33
+32232,Cauê Pinto,234.590.167-52,Operações,Auxílio Doença,F32.1,2025-10-13,2026-01-05,84
+16288,Lucca Castro,215.468.079-85,Financeiro,Auxílio Doença,I10,2024-03-23,2024-05-15,53
+49691,Bárbara Monteiro,327.650.814-17,TI,Aposentadoria por Invalidez,I10,2025-02-21,2025-08-09,169
+87662,Augusto Nogueira,297.685.130-12,TI,Auxílio Acidente,Z34.0,2023-03-29,2023-06-22,85
+74771,Ian Campos,126.874.350-07,RH,Auxílio Doença,Z34.0,2025-06-27,2025-12-05,161
+10561,Maria Cecília Almeida,485.132.760-90,Financeiro,Auxílio Acidente,M54.5,2024-04-21,2024-08-18,119
+60677,Dr. Igor Pinto,938.507.246-38,Financeiro,Auxílio Acidente,I10,2024-03-19,2024-06-28,101
+28670,Catarina Monteiro,028.491.765-67,RH,Aposentadoria por Invalidez,M54.5,2024-11-28,2025-03-02,94
+79980,Marina Rezende,639.015.427-52,Operações,Auxílio Acidente,F32.1,2024-08-09,2024-11-22,105
+59516,Ana Lívia Peixoto,720.164.859-49,Operações,Licença Maternidade,S93.4,2023-06-21,2023-08-08,48
+76939,Thiago Oliveira,042.916.735-07,Comercial,Licença Maternidade,Z34.0,2025-03-21,2025-06-13,84
+18483,Dra. Alice Campos,782.459.160-30,RH,Aposentadoria por Invalidez,F32.1,2024-10-10,2024-11-09,30
+19770,Gustavo Henrique Ribeiro,231.948.076-50,TI,Auxílio Acidente,M54.5,2023-08-08,2023-09-13,36
+91486,Nina Ferreira,185.436.792-73,Financeiro,Auxílio Doença,M54.5,2024-02-01,2024-06-01,121
+11382,Alexia Gonçalves,485.610.927-85,Operações,Auxílio Acidente,I10,2025-01-17,2025-02-26,40
+82152,Agatha da Cruz,729.306.458-65,Comercial,Auxílio Acidente,I10,2023-12-20,2023-12-28,8
+63267,Ana Carolina da Mota,361.980.457-57,Comercial,Auxílio Acidente,Z34.0,2025-05-04,2025-10-18,167
+87380,Luiz Fernando da Mata,572.910.684-01,TI,Aposentadoria por Invalidez,F32.1,2025-02-24,2025-06-14,110
+14503,Raul Farias,891.704.362-31,Comercial,Licença Maternidade,S93.4,2025-08-21,2025-09-30,40
+84786,Stella Duarte,049.238.175-50,Comercial,Licença Maternidade,M54.5,2023-02-06,2023-07-10,154
+57892,Otávio Silva,845.027.693-47,TI,Auxílio Doença,Z34.0,2023-03-17,2023-04-02,16
+86405,Davi Lucas da Conceição,653.081.742-53,Comercial,Aposentadoria por Invalidez,Z34.0,2025-08-16,2025-11-22,98
+84655,Srta. Maria Sophia Barbosa,879.154.603-66,TI,Auxílio Doença,Z34.0,2024-08-06,2024-11-17,103
+84882,Sr. Murilo Martins,137.294.506-70,Operações,Aposentadoria por Invalidez,S93.4,2025-05-05,2025-10-21,169
+33110,Davi Lucas Carvalho,970.531.468-39,Comercial,Licença Maternidade,I10,2023-06-03,2023-08-03,61
+28216,Dr. Vitor Ramos,841.673.920-03,Operações,Auxílio Doença,I10,2022-12-29,2023-02-23,56
+29149,Luna Lopes,982.501.746-58,TI,Auxílio Acidente,S93.4,2023-08-02,2023-12-23,143
+25577,Danilo Rodrigues,470.629.315-43,Operações,Aposentadoria por Invalidez,M54.5,2024-01-24,2024-07-14,172
+39588,Srta. Mirella Silva,258.719.306-03,TI,Auxílio Doença,F32.1,2023-03-29,2023-07-14,107
+73397,Ana Clara Moreira,619.852.430-24,TI,Licença Maternidade,I10,2023-06-24,2023-08-28,65
+12397,Vitória da Costa,140.769.853-20,TI,Auxílio Doença,S93.4,2025-07-01,2025-11-28,150
+86713,Sra. Bruna Nogueira,519.480.372-97,Financeiro,Aposentadoria por Invalidez,Z34.0,2024-12-15,2025-04-15,121
+62259,Francisco Cardoso,970.132.865-59,Comercial,Auxílio Acidente,S93.4,2023-01-11,2023-03-09,57
+88156,Caroline Castro,620.178.345-80,RH,Licença Maternidade,F32.1,2023-03-01,2023-08-25,177
+23703,Alícia Cavalcanti,269.138.540-05,Financeiro,Auxílio Acidente,F32.1,2023-09-24,2024-03-06,164
+43622,Ana Júlia Campos,297.301.658-40,Operações,Auxílio Doença,M54.5,2023-01-19,2023-04-28,99
+46566,Sarah Moura,830.542.791-97,Financeiro,Licença Maternidade,Z34.0,2024-01-25,2024-06-08,135
+27925,Julia Carvalho,930.465.281-24,Comercial,Auxílio Doença,M54.5,2025-09-03,2026-01-10,129
+96464,Raul Mendes,681.307.954-93,TI,Licença Maternidade,S93.4,2023-05-26,2023-06-27,32
+78525,Pedro Lucas Cardoso,974.086.352-38,TI,Aposentadoria por Invalidez,I10,2023-04-20,2023-08-16,118
+28679,Dr. Davi Teixeira,872.931.065-21,Financeiro,Licença Maternidade,I10,2023-11-06,2024-01-13,68
+78752,João Pedro Martins,487.529.106-01,TI,Licença Maternidade,I10,2025-06-15,2025-09-27,104
+26361,Fernanda Porto,965.807.312-30,Comercial,Auxílio Doença,I10,2023-11-14,2024-03-13,120
+96869,Srta. Eloah Pires,058.613.274-08,Financeiro,Auxílio Acidente,F32.1,2023-11-09,2024-02-02,85
+75816,Isabel Fogaça,218.706.594-49,Comercial,Licença Maternidade,Z34.0,2023-03-16,2023-08-27,164
+23454,Sr. Davi Lucca Carvalho,063.874.951-48,Comercial,Auxílio Doença,M54.5,2024-05-21,2024-07-10,50
+26667,Pedro Miguel Moura,495.278.301-41,Operações,Auxílio Acidente,M54.5,2025-06-30,2025-07-20,20
+57857,Dr. Yago Souza,357.810.942-88,Operações,Auxílio Doença,M54.5,2025-06-13,2025-08-12,60
+94446,Lívia Aragão,248.935.701-88,TI,Licença Maternidade,M54.5,2023-01-15,2023-07-09,175
+22724,Kevin da Luz,694.071.528-20,RH,Licença Maternidade,F32.1,2024-11-09,2024-11-17,8
+93847,João Lucas Teixeira,168.359.274-37,Financeiro,Licença Maternidade,M54.5,2023-11-01,2024-03-20,140
+97511,Luiz Gustavo Monteiro,571.342.806-08,Operações,Auxílio Doença,M54.5,2025-06-18,2025-07-05,17
+46313,Daniela Nascimento,516.948.032-60,Operações,Auxílio Doença,S93.4,2025-08-17,2026-01-20,156
+54199,Carlos Eduardo Almeida,125.978.463-00,Financeiro,Licença Maternidade,S93.4,2024-09-03,2025-01-25,144
+22148,Cauã Souza,496.073.528-74,TI,Licença Maternidade,F32.1,2023-01-03,2023-01-27,24
+54338,Amanda Cardoso,863.149.720-78,Comercial,Aposentadoria por Invalidez,S93.4,2024-03-26,2024-09-17,175
+26107,Thiago Freitas,786.120.359-02,Comercial,Licença Maternidade,M54.5,2025-03-23,2025-05-21,59
+78708,Dra. Marina da Mata,285.146.307-17,TI,Auxílio Doença,F32.1,2024-10-13,2024-10-18,5
+37153,Agatha Barbosa,739.612.485-91,Operações,Aposentadoria por Invalidez,Z34.0,2023-09-26,2024-02-06,133
+29578,Valentina Melo,695.302.148-98,Operações,Licença Maternidade,M54.5,2023-04-20,2023-09-26,159
+61244,Gustavo Henrique Peixoto,215.934.068-51,Financeiro,Licença Maternidade,F32.1,2024-10-19,2025-01-05,78
+16343,Gabriela Aragão,548.930.761-75,Operações,Licença Maternidade,S93.4,2025-12-06,2026-05-06,151
+88880,Mariana Alves,861.927.403-13,Operações,Aposentadoria por Invalidez,S93.4,2024-02-28,2024-08-19,173
+46694,Ian Campos,195.764.203-34,Financeiro,Licença Maternidade,I10,2023-11-15,2024-03-08,114
+18895,Luiz Otávio Correia,341.860.759-48,Financeiro,Licença Maternidade,F32.1,2024-05-12,2024-05-27,15
+27243,Dr. Noah da Mata,290.814.537-50,Financeiro,Auxílio Acidente,Z34.0,2023-09-15,2023-10-28,43
+44529,Sra. Olivia Porto,347.568.920-00,TI,Licença Maternidade,Z34.0,2023-01-08,2023-04-30,112
+56413,Clara Costa,713.069.584-66,TI,Licença Maternidade,Z34.0,2024-06-22,2024-08-12,51
+93824,Sra. Marcela Cavalcanti,910.273.854-60,TI,Auxílio Doença,M54.5,2023-05-11,2023-07-08,58
+48775,Levi Moreira,156.287.430-62,Comercial,Licença Maternidade,Z34.0,2023-04-11,2023-07-06,86
+19087,Sra. Natália da Mota,703.548.196-66,RH,Auxílio Acidente,I10,2025-06-20,2025-10-13,115
+28334,Vitória da Luz,180.326.974-03,TI,Aposentadoria por Invalidez,F32.1,2025-01-18,2025-03-11,52
+76377,Matheus da Paz,357.280.196-68,Operações,Auxílio Doença,F32.1,2024-05-23,2024-06-25,33
+71768,Isadora Cardoso,705.134.689-00,Financeiro,Auxílio Acidente,S93.4,2023-06-27,2023-09-02,67
+27701,Luiza Gomes,764.298.513-46,TI,Licença Maternidade,S93.4,2024-09-08,2024-11-10,63
+72646,Sra. Valentina Moreira,658.201.394-70,Financeiro,Licença Maternidade,M54.5,2023-07-15,2023-10-31,108
+24805,Isadora Ferreira,018.795.643-00,Comercial,Licença Maternidade,Z34.0,2023-02-28,2023-04-21,52
+89792,Mariane Viana,430.276.518-62,RH,Auxílio Doença,I10,2023-09-24,2024-03-17,175
+90605,Luana Gomes,925.704.136-07,Operações,Aposentadoria por Invalidez,Z34.0,2025-12-02,2026-01-19,48
+55546,Dr. Levi Monteiro,016.248.593-05,TI,Auxílio Acidente,S93.4,2025-04-16,2025-09-26,163
+26002,Eloah da Mata,564.297.081-01,Financeiro,Auxílio Doença,I10,2024-03-11,2024-08-25,167
+28408,Dr. João Gabriel Caldeira,407.982.513-79,Comercial,Auxílio Acidente,M54.5,2023-04-29,2023-05-19,20
+37889,Juliana Cardoso,965.213.780-40,Comercial,Aposentadoria por Invalidez,I10,2025-07-11,2025-11-26,138
+34682,Alana Rodrigues,346.509.817-00,TI,Licença Maternidade,I10,2025-05-08,2025-06-09,32
+33481,Luigi Pereira,013.865.724-62,RH,Aposentadoria por Invalidez,S93.4,2024-05-15,2024-07-17,63
+55374,Ana Júlia Ramos,970.435.216-61,TI,Auxílio Acidente,F32.1,2023-08-14,2023-09-27,44
+97492,Camila Peixoto,718.925.063-86,RH,Licença Maternidade,I10,2023-07-30,2023-09-05,37
+34060,Lívia Nunes,180.794.653-39,Comercial,Aposentadoria por Invalidez,I10,2023-08-28,2023-11-26,90
+87745,Dr. Joaquim das Neves,243.596.170-70,TI,Auxílio Doença,M54.5,2023-08-14,2023-08-21,7
+53401,Maria Eduarda Pereira,613.407.825-53,Operações,Auxílio Doença,I10,2024-06-24,2024-10-09,107
+24786,Juan Almeida,752.931.048-88,TI,Auxílio Doença,I10,2025-08-13,2025-08-24,11
+42204,Davi Luiz Ramos,082.564.391-06,Financeiro,Licença Maternidade,I10,2024-03-19,2024-05-29,71
+28524,Stephany Moraes,123.579.804-60,Comercial,Licença Maternidade,M54.5,2023-04-26,2023-09-08,135
+99175,Eduardo Gonçalves,289.015.367-30,RH,Licença Maternidade,Z34.0,2025-10-30,2026-02-21,114
+43341,Rebeca Gonçalves,294.560.731-06,RH,Licença Maternidade,F32.1,2025-03-04,2025-07-18,136
+46360,Juan Carvalho,720.895.436-47,TI,Auxílio Acidente,S93.4,2023-06-26,2023-11-30,157
+19217,Rodrigo Novaes,528.194.607-20,Financeiro,Auxílio Acidente,M54.5,2024-12-08,2025-02-14,68
+57704,Maitê da Mota,876.031.954-20,Operações,Aposentadoria por Invalidez,Z34.0,2024-04-16,2024-07-22,97
+11882,Sr. Murilo da Mota,709.863.452-29,Operações,Licença Maternidade,S93.4,2025-04-01,2025-08-19,140
+48496,Matheus Moraes,321.768.094-40,Financeiro,Auxílio Acidente,I10,2025-06-18,2025-11-17,152
+18348,Luana da Mata,617.948.230-69,Operações,Auxílio Acidente,M54.5,2023-12-07,2023-12-26,19
+34584,Dr. Vinicius Melo,680.732.419-78,Financeiro,Licença Maternidade,I10,2025-10-19,2026-03-17,149
+22931,João Lucas Barros,798.501.436-57,TI,Auxílio Doença,I10,2024-02-26,2024-04-10,44
+13082,Sophia Rodrigues,326.198.547-09,Financeiro,Auxílio Doença,M54.5,2024-11-26,2024-12-03,7
+99834,Vinicius da Mata,973.681.025-95,Operações,Aposentadoria por Invalidez,M54.5,2025-05-05,2025-08-15,102
+99726,Gabriel Araújo,752.680.149-94,Comercial,Licença Maternidade,Z34.0,2024-11-25,2025-01-01,37
+78263,Isabel Lopes,418.072.596-76,Operações,Auxílio Acidente,S93.4,2023-03-15,2023-07-24,131
+32829,Brenda Rodrigues,283.514.697-00,Operações,Licença Maternidade,S93.4,2024-08-23,2024-09-29,37
+97750,Yago da Costa,259.307.164-80,TI,Auxílio Acidente,I10,2023-01-05,2023-05-19,134
+82199,Vitor Gabriel Cunha,621.730.954-80,Financeiro,Aposentadoria por Invalidez,M54.5,2025-09-28,2026-01-14,108
+56258,Lorena Correia,147.926.085-11,Comercial,Auxílio Doença,F32.1,2023-12-02,2024-02-19,79
+34861,Bianca Fernandes,507.124.869-76,Comercial,Aposentadoria por Invalidez,S93.4,2023-09-16,2023-10-31,45
+24421,Evelyn Monteiro,028.493.657-00,Comercial,Auxílio Acidente,S93.4,2023-09-21,2023-12-14,84
+76439,Davi das Neves,793.051.268-12,TI,Aposentadoria por Invalidez,S93.4,2023-04-30,2023-08-27,119
+45634,Lívia Moreira,453.710.986-66,TI,Aposentadoria por Invalidez,S93.4,2024-05-16,2024-08-27,103
+89875,Dr. Pedro Miguel da Paz,302.786.941-87,RH,Aposentadoria por Invalidez,S93.4,2023-11-04,2023-11-13,9
+82127,Ana Luiza Carvalho,708.421.569-76,Operações,Aposentadoria por Invalidez,S93.4,2023-05-06,2023-09-20,137
+14227,Luana Silveira,645.930.218-98,Financeiro,Licença Maternidade,F32.1,2024-04-18,2024-08-19,123
+64398,Ryan Oliveira,048.127.596-76,Operações,Auxílio Acidente,I10,2024-04-24,2024-10-08,167
+23023,Maria Sophia Porto,318.570.926-86,Operações,Aposentadoria por Invalidez,M54.5,2023-09-07,2023-11-14,68
+79164,Daniela Viana,469.835.701-20,TI,Aposentadoria por Invalidez,F32.1,2025-02-05,2025-07-22,167
+57636,Catarina Carvalho,193.058.672-86,RH,Auxílio Doença,F32.1,2025-09-13,2026-01-25,134
+20699,Luiza Carvalho,823.657.041-07,Comercial,Auxílio Doença,S93.4,2025-03-17,2025-09-02,169
+43173,João Lucas Azevedo,820.341.569-51,Comercial,Auxílio Doença,S93.4,2024-07-04,2024-11-17,136
+78934,Larissa Sales,489.721.053-41,Comercial,Auxílio Doença,I10,2023-09-04,2024-02-13,162
+67481,Sr. Juan Rodrigues,380.521.974-14,Operações,Auxílio Doença,Z34.0,2025-11-27,2026-05-09,163
+19200,Bryan Freitas,517.329.486-82,TI,Licença Maternidade,I10,2023-07-19,2023-08-14,26
+14028,Marina Cavalcanti,259.170.483-04,Operações,Aposentadoria por Invalidez,I10,2024-02-18,2024-06-10,113
+16179,Dr. Ryan Moura,951.482.306-06,Operações,Aposentadoria por Invalidez,M54.5,2025-07-29,2025-12-22,146
+44018,Isabella Lopes,043.857.612-80,Operações,Auxílio Doença,I10,2025-02-25,2025-06-10,105
+93282,Isis da Conceição,294.803.571-60,TI,Aposentadoria por Invalidez,I10,2024-02-05,2024-06-21,137
+82465,Manuela Azevedo,390.615.487-48,TI,Auxílio Doença,I10,2025-09-28,2026-02-15,140
+33706,Luiz Miguel Almeida,649.238.017-78,RH,Aposentadoria por Invalidez,M54.5,2025-11-02,2025-12-07,35
+13795,Joana Melo,135.809.672-40,Comercial,Auxílio Acidente,M54.5,2022-12-19,2023-06-02,165
+17356,Bianca da Mata,623.459.180-98,Comercial,Licença Maternidade,S93.4,2024-09-05,2025-01-06,123
+25946,Maria Fogaça,869.702.534-65,TI,Auxílio Acidente,S93.4,2025-07-29,2025-10-21,84
+13645,Dra. Kamilly Nascimento,253.670.981-77,TI,Aposentadoria por Invalidez,Z34.0,2023-05-03,2023-10-30,180
+50524,Ana Júlia Campos,820.371.695-40,TI,Auxílio Acidente,Z34.0,2024-10-23,2024-11-03,11
+34586,Kamilly Vieira,624.905.371-99,Financeiro,Licença Maternidade,M54.5,2025-08-28,2025-10-18,51
+18720,Enrico Ramos,182.790.436-40,Comercial,Aposentadoria por Invalidez,Z34.0,2023-01-26,2023-05-31,125
+20882,Sophie Almeida,097.648.125-11,RH,Auxílio Doença,Z34.0,2024-11-14,2024-11-23,9
+42747,Carolina Pires,148.275.069-49,TI,Auxílio Acidente,Z34.0,2025-06-08,2025-08-09,62
+31638,Dr. Davi Lucca da Paz,965.204.187-49,Operações,Licença Maternidade,M54.5,2025-05-21,2025-08-20,91
+79575,Brenda Pires,842.719.650-49,TI,Licença Maternidade,M54.5,2022-12-29,2023-06-20,173
+64014,Heloísa Fernandes,386.094.512-24,RH,Auxílio Doença,S93.4,2024-11-12,2024-12-03,21
+13579,Dr. Gabriel Almeida,085.463.719-20,Financeiro,Auxílio Doença,Z34.0,2025-12-10,2026-03-13,93
+93775,Caroline da Cruz,214.950.786-20,TI,Licença Maternidade,Z34.0,2023-10-04,2023-11-16,43
+13460,Sr. Enrico Pereira,032.196.854-98,Comercial,Aposentadoria por Invalidez,F32.1,2024-01-05,2024-06-16,163
+61431,Benjamin Lima,310.286.795-21,Financeiro,Auxílio Doença,F32.1,2025-04-02,2025-06-11,70
+19067,Sophie Lopes,725.389.461-82,RH,Licença Maternidade,Z34.0,2025-02-10,2025-04-30,79
