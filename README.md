@@ -121,4 +121,6 @@ ORDER BY dias_afastados DESC */;
 -- AUTOAVALIAÇÃO: 
 O MVP permitiu aplicar conceitos fundamentais de engenharia de dados, incluindo ingestão, modelagem, transformação e análise de dados em nuvem. As principais dificuldades estiveram relacionadas à configuração do ambiente Databricks e organização dos catálogos, superadas ao longo do desenvolvimento.
 
+OBS.: Arquivo Python utilizado como base será disponibilizado junto ao envio do trabalho, bem como, a base. 
+
    
